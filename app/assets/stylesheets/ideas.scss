@@ -1,3 +1,17 @@
 // Place all the styles related to the ideas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.well img {
+  width:100%;
+}
+.box {
+  background:#fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding:1px 10px 10px;
+  .image-wrapper {
+    margin:0px -10px;
+    img {
+      width:100%;
+    }
+  }
+}
